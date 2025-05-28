@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application Météo</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Météo Actuelle</h1>
+      <div class="search-box">
+        <input type="text" id="city-input" placeholder="Entrez une ville" />
+        <button id="search-btn">Rechercher</button>
+      </div>
+      <div class="weather-card">
+        <div id="location">Abidjan, FR</div>
+        <div id="temp">30°C</div>
+        <div id="description">Averse de pluie</div>
+        <div id="details">
+          <span id="humidity">Humidité: 69%</span>
+          <span id="wind">Vent: 20 km/h</span>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

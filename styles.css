@@ -1,0 +1,67 @@
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(135deg, #72afd3, #37ecba); /*couleur Dégradée*/
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.search-box {
+  margin: 20px 0;
+}
+
+input,
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.weather-card {
+  margin-top: 20px;
+}
+
+#temp {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+#description {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+#details {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 1rem;
+  }
+
+  #details {
+    flex-direction: column;
+  }
+}
